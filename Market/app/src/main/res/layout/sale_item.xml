@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/sale_item_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/month_sale"
+            android:paddingLeft="5dp"
+            android:text="11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="/"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="09"
+            android:paddingLeft="2dp"
+            android:id="@+id/day_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="2dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="/"/>
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="2dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="2015"
+            android:id="@+id/year_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/title_sale"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="싱싱한 윤원준 팔아요."/>
+    </LinearLayout>
+
+</LinearLayout>
